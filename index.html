@@ -3,37 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoIT hw-01</title>
+    <title>GoIT hw-02</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+      <nav class="navigation">
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-span">Studio</span></a
+        >
+        <ul class="nav-list">
+          <li><a href="" class="studio">Studio</a></li>
+          <li><a href="" class="portfolio">Portfolio</a></li>
+          <li><a href="" class="comtacts">Contacts</a></li>
         </ul>
       </nav>
 
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="address-list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="mobile">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
+      <section class="solutions">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button type="button" class="button">Order Service</button>
       </section>
 
       <section>
-        <h2>section about team</h2>
+        <h2 class="about-team">section about team</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -66,10 +84,10 @@
         </ul>
       </section>
 
-      <section>
+      <section class="team">
         <h2>Our Team</h2>
         <ul>
-          <li>
+          <li class="team-list">
             <img
               src="./images/person1.jpg"
               alt="one person-man"
@@ -79,7 +97,7 @@
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/person2.jpg"
               alt="one person-man"
@@ -89,7 +107,7 @@
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/person3.jpg"
               alt="one person-woman"
@@ -99,7 +117,7 @@
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/person4.jpg"
               alt="one person-man"
@@ -111,11 +129,77 @@
           </li>
         </ul>
       </section>
+
+      <section>
+        <h2 class="portfolio">Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/Banking_App.jpg"
+              alt="bank-app"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/Cashless_Payment.jpg"
+              alt="qr-code payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/Meditation_App.jpg"
+              alt="laptop and phone"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/Taxi_Service.jpg"
+              alt="taxi interior"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/Screen_Illustrations.jpg"
+              alt="desktop illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/Online_Courses.jpg"
+              alt="smile woman"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+      <a href="./index.html" class="logo">WebStudio</a>
+      <p class="footer-txt">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

@@ -1,0 +1,134 @@
+
+/* ==============MAIN================ */
+
+body {
+  color: #434455;
+  background-color: #FFF;
+  font-family: Roboto: sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ==============INTERACTIVE================ */
+
+.nav-list {
+color: #2E2F42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.nav-list a:hover,
+.nav-list .studio:active {
+  color: #404BBF
+}
+
+.address-list {
+  font-style: normal;
+}
+
+.address-list a:hover {
+  color: #404BBF;
+}
+
+
+.button {
+  background-color: #4D5AE5;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover, :focus {
+  background: var(--OCEAN, #404BBF);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* ==============MAIN================ */
+
+.logo {
+  color:#4D5AE5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.logo-span {
+  color: #2E2F42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.solutions {
+  background-color: #2E2F42;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.about-team {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+h3 {
+ color: #2E2F42;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 1.20;
+ letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: #F4F4FD;
+}
+
+h2 {
+  color: #2E2F42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: #2E2F42;
+
+}
+
+.footer-txt {
+  color: #F4F4FD;
+}
+
+.team-list {
+  border: 1px solid #E7E9FC;
+  background: #FFF;
+}
