@@ -31,7 +31,7 @@ color: #434455;
   color: #404BBF
 }
 
-.contact {
+.address {
   font-style: normal;
 }
 
@@ -63,11 +63,20 @@ color: #434455;
 }
 
 .logo-span {
-  color: #2E2F42;
-  font-family: Raleway, sans-serif;
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logo-span-two {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -82,12 +91,6 @@ h1 {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-}
-
-.hidden {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
 }
 
 .team-list {
@@ -112,12 +115,24 @@ h2 {
   text-transform: capitalize;
 }
 
-footer {
+.footer {
   background-color: #2E2F42;
 
 }
 
 .footer-txt {
   color: #F4F4FD;
+}
+
+.our-team-list {
+  background-color: #FFFFFF;
+}
+
+.person-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
