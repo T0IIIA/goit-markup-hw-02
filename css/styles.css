@@ -2,9 +2,9 @@
 /* ==============MAIN================ */
 
 body {
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFF;
-  font-family: Roboto: sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -20,32 +20,24 @@ ul {
 
 /* ==============INTERACTIVE================ */
 
-.nav-list {
-color: #2E2F42;
+.header-link {
+color: #434455;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
 }
 
-.nav-list a:hover,
-.nav-list .studio:active {
+.header-link:hover, 
+.header-link:focus {
   color: #404BBF
 }
 
-.address-list {
+.contact {
   font-style: normal;
 }
-
-.address-list a:hover {
-  color: #404BBF;
-}
-
 
 .button {
   background-color: #4D5AE5;
   color: #FFF;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-family: inherit;
   font-weight: 500;
   line-height: 1.5em;
@@ -53,25 +45,26 @@ color: #2E2F42;
   cursor: pointer;
 }
 
-.button:hover, :focus {
-  background: var(--OCEAN, #404BBF);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+.button:hover, 
+.button:focus {
+  background-color: #404BBF;
 }
 
 /* ==============MAIN================ */
 
 .logo {
   color:#4D5AE5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-span {
   color: #2E2F42;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
@@ -91,13 +84,13 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-.about-team {
+.hidden {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-h3 {
+.team-list {
  color: #2E2F42;
  font-size: 20px;
  font-weight: 500;
@@ -105,7 +98,7 @@ h3 {
  letter-spacing: 0.02em;
 }
 
-.team {
+.about-team {
   background-color: #F4F4FD;
 }
 
@@ -128,7 +121,3 @@ footer {
   color: #F4F4FD;
 }
 
-.team-list {
-  border: 1px solid #E7E9FC;
-  background: #FFF;
-}
