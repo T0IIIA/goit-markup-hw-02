@@ -26,8 +26,14 @@ color: #2e2f42;
   font-weight: 500;
 }
 
+.address-link {
+  color: #434455;
+}
+
 .header-link:hover, 
-.header-link:focus {
+.header-link:focus,
+.address-link:hover,
+.address-link:focus {
   color: #404BBF
 }
 
